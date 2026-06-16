@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>RETRO PIXEL TRIS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="options-bar">
+        <span>MODE:</span>
+        <button class="mode-btn active" id="btn-easy">EASY</button>
+        <button class="mode-btn" id="btn-med">MED</button>
+        <button class="mode-btn" id="btn-hard">HARD</button>
+    </div>
+
+    <div class="game-layout">
+        <canvas id="tetris" width="240" height="480"></canvas>
+
+        <div class="sidebar">
+            <div class="ui-box next-container">
+                <div class="label">NEXT</div>
+                <canvas id="next" width="80" height="80"></canvas>
+            </div>
+            <div class="ui-box">
+                <div class="label">SCORE</div>
+                <div class="value" id="score">0</div>
+            </div>
+            <div class="ui-box">
+                <div class="label">HIGH</div>
+                <div class="value" id="highScore">0</div>
+            </div>
+            <div class="ui-box">
+                <div class="label">TIME</div>
+                <div class="value" id="timer">0s</div>
+            </div>
+        </div>
+
+        <div id="game-over">
+            <h1>GAME OVER</h1>
+            <button id="restart-btn">PLAY AGAIN</button>
+        </div>
+    </div>
+
+    <div class="controls" id="mobileControls">
+        <div class="btn btn-rotate" id="ctrl-rotate">↻</div>
+        <div class="btn btn-left" id="ctrl-left">←</div>
+        <div class="btn btn-down" id="ctrl-down">↓</div>
+        <div class="btn btn-right" id="ctrl-right">→</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
