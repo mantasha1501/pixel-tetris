@@ -4,7 +4,7 @@ A responsive, phone-friendly indie Tetris game with a retro aesthetic, local hig
 
 ## 🚀 Live Demo
 Play the game right now in your browser here: 
-👉 **[CLICK HERE TO PLAY PIXEL-TETRIS](https://YOUR-GITHUB-USERNAME.github.io/pixel-tetris/)**
+👉 **[CLICK HERE TO PLAY PIXEL-TETRIS](https://mantasha1501.github.io/pixel-tetris/)**
 
 ## 🎮 About the Game
 Pixel-Tetris is a polished, arcade-inspired block puzzle game built natively for the web using vanilla HTML, CSS, and JavaScript. It combines nostalgic retro styling with smooth gameplay mechanics, featuring snappy grid movement, particle explosion effects upon line clears, and a ghost-piece projection system to help guide your landing targets. 
